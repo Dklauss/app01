@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { XpPageRoutingModule } from './xp-routing.module';
+import { DocsPageRoutingModule } from './docs-routing.module';
 
-import { XpPage } from './xp.page';
+import { DocsPage } from './docs.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    XpPageRoutingModule
+    DocsPageRoutingModule
   ],
-  declarations: [XpPage]
+  declarations: [DocsPage]
 })
-export class XpPageModule {}
+export class DocsPageModule {}
